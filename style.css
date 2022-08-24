@@ -59,7 +59,7 @@
     font-family: 'CamphorProForXiaoMi-Regular';
     }
 
-    img{width: 26rem;}
+    img{width: 20rem;}
 
 } /***********************************Fim-Desktop*******************************/
 
@@ -106,7 +106,7 @@
         }
     
         #timer{font-family: 'CamphorProForXiaoMi-Bold';}
-        img{width: 26rem;}
+        img{width: 20rem;}
 
 
 } /***********************************Fim-Tablet*******************************/
@@ -151,7 +151,7 @@
     }
 
     #timer{font-family: 'CamphorProForXiaoMi-Bold';}
-    img{width: 26rem;}
+    img{width: 20rem;}
 
 
 } /***********************************Fim-Mobile*******************************/
