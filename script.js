@@ -1,8 +1,8 @@
 // Define a data para a qual estamos em contagem regressiva
-var countDownDate = new Date("August 26, 2022 15:37:25").getTime();
+  var countDownDate = new Date("August 25, 2022 18:00:00").getTime();
 
 // Atualiza a contagem regressiva a cada 1 segundo
-var x = setInterval(function() {
+  var x = setInterval(function() {
 
 // Obtém a data e hora de hoje
   var now = new Date().getTime();
@@ -16,7 +16,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Exibe o resultado no elemento com id="timer"
+// Exibe o resultado no elemento com id="timer"
   document.getElementById("timer").innerHTML = days + "D " + hours + "H"
   + minutes + "M" + seconds + "S";
 // Se a contagem regressiva terminar, escreva algum texto
