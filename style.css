@@ -40,6 +40,12 @@
         flex-direction: row;
         flex-wrap: nowrap;
         }
+
+        .title{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        }
         
         .timer{
         margin: 1rem;
