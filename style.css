@@ -65,18 +65,11 @@
 
 @media screen and (min-device-width: 768px) and (max-width:1023px){
 
-        main{display: flex;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-        }
-
-        .fundo{
+      
+    .fundo{
         display: flex;
         width: 100%;
-        height: 30rem;
         background: #fff;
-        border: solid 1px #ff6900;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
@@ -88,24 +81,37 @@
         }
     
         .conteudo{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
         }
         
-        #timer{
-        margin: auto;
-        margin-top: 8rem;
+        .timer{
+        margin-bottom: 1.3rem; 
+        margin: 1rem;
+        margin-top: 1.3rem;
         background-color: #ff6900;
-        width: 40rem;
         height: 9rem;
         color: #fff;
         border-radius: 1rem;
         font-size: 3rem;
         box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+        padding: 2.5rem;
         }
     
-        #timer{font-family: 'CamphorProForXiaoMi-Bold';}
+        .timer01{
+        font-family: 'CamphorProForXiaoMi-Bold';
+        font-size: 2rem;
+        }
+    
+        .text{
+        width: 20rem;
+        padding: 1REM;
+        }
+    
         img{width: 20rem;}
 
 
