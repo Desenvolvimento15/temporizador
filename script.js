@@ -1,26 +1,25 @@
-// Set the date we're counting down to
+// Define a data para a qual estamos em contagem regressiva
 var countDownDate = new Date("August 26, 2022 15:37:25").getTime();
 
-// Update the count down every 1 second
+// Atualiza a contagem regressiva a cada 1 segundo
 var x = setInterval(function() {
 
-  // Get today's date and time
+// Obtém a data e hora de hoje
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+// Encontra a distância entre agora e a data da contagem regressiva
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+// Cálculos de tempo para dias, horas, minutos e segundos
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Exibe o resultado no elemento com id="timer"
   document.getElementById("timer").innerHTML = days + "D " + hours + "H"
   + minutes + "M" + seconds + "S";
-
-  // If the count down is finished, write some text
+// Se a contagem regressiva terminar, escreva algum texto
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "EXPIRED";
