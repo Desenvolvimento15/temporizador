@@ -9,12 +9,12 @@
 .f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
 .f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
 
-@media screen and (min-device-width: 1024px){
+@media screen and (min-width: 1024px){
 
-    .titulo_xiaomi{color: #000; font-size:2.1rem; padding-bottom: 1rem; text-align: left;}
-    .subtitulo_xiaomi{color: #ff6900; font-size: 2rem; text-align: left;}
-    .p_xiaomi{color: rgb(168, 168, 168); font-size: 2rem; text-align: left;}
-    .p_box{font-size:2rem;}
+    .titulo_xiaomi{color: #000; font-size:3rem; padding-bottom: 1rem; text-align: left;}
+    .subtitulo_xiaomi{color: #ff6900; font-size: 3rem; text-align: left;}
+    .p_xiaomi{color: rgb(168, 168, 168); font-size: 3rem; text-align: left;}
+    .p_box{font-size:3rem;}
 
     main{display: flex; justify-content: center; align-items: center; text-align: center;}
 
@@ -62,7 +62,7 @@
         }
     
         .text{
-        width: 20rem;
+        width: 25rem;
         padding: 1REM;
         }
     
@@ -70,7 +70,7 @@
 
 } /***********************************Fim-Desktop*******************************/
 
-@media screen and (min-device-width: 769px) and (max-width:1023px){
+@media screen and (min-width: 769px) and (max-width:1023px){
 
     .titulo_xiaomi{color: #000; font-size:2.1rem; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 2rem;}
@@ -128,7 +128,7 @@
 
 } /***********************************Fim-Tablet*******************************/
 
-@media screen and (max-device-width: 768px){
+@media screen and (max-width: 768px){
 
     .titulo_xiaomi{color: #000; font-size:2.1rem; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 2rem;}
