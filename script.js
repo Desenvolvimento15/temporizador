@@ -27,6 +27,6 @@ document.getElementById("timer").innerHTML =   days + hours + ":"+ minutes + ":"
 // Se a contagem regressiva terminar, escreva algum texto
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
+    document.getElementById("timer").innerHTML = "Oferta encerrada!";
   }
 }, 1000);
