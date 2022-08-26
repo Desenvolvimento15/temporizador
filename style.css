@@ -18,55 +18,55 @@
 
     main{display: flex; justify-content: center; align-items: center; text-align: center;}
 
-        .fundo{
-        display: flex;
-        width: 100%;
-        background: #fff;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        }
+    .fundo{
+    display: flex;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
     
-        .topo{
-        width: 100%;
-        background: #ff6900;
-        }
+    .topo{
+    width: 100%;
+    background: #ff6900;
+    }
     
-        .conteudo{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        }
+    .conteudo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
 
-        .title{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        }
+    .title{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
         
-        .timer{
-        margin: 1rem;
-        background-color: #ff6900;
-        color: #fff;
-        border-radius: 1rem;
-        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-        padding: 2.5rem;
-        }
+    .timer{
+    margin: 1rem;
+    background-color: #ff6900;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 2.5rem;
+    }
     
-        .timer01{
-        font-family: 'CamphorProForXiaoMi-Bold';
-        font-size: 4rem;
-        }
+    .timer01{
+    font-family: 'CamphorProForXiaoMi-Bold';
+    font-size: 4rem;
+    }
     
-        .text{
-        width: 25rem;
-        padding: 1REM;
-        }
+    .text{
+    width: 25rem;
+    padding: 1rem;
+    }
     
-        img{width: 31rem;}
+    img{width: 31rem;}
 
 } /***********************************Fim-Desktop*******************************/
 
