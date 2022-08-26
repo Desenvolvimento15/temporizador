@@ -1,5 +1,5 @@
 // Define a data para a qual estamos em contagem regressiva
-var countDownDate = new Date("August 26, 2022 10:00:00").getTime();
+var countDownDate = new Date("August 27, 2022 18:00:00").getTime();
 // Atualiza a contagem regressiva a cada 1 segundo
   var x = setInterval(function() {
 // Obtém a data e hora de hoje
